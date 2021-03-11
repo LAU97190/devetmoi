@@ -2,6 +2,7 @@
 {
     float: left;
     height: 80px;;
+    padding: 1%
 }
 
 nav
@@ -19,5 +20,35 @@ ul
     margin-right: 3px;
     padding-right: 30px;
 }
-  
-    
+
+.imagedefond
+  {
+    background: url('images/backgroung_image.jpg');
+    width:  100%;
+    z-index:1;
+  }
+
+.logo2_flottant
+{
+  float: none;
+  height: 10%;
+  background: url('images/logo_long.png');
+  position: absolute;
+    right: 55%;
+    left: 45%;
+    bottom: 50%;
+    top: 50%;  
+    z-index: 2;
+}
+
+h1
+{
+  position:absolute;
+    right: 58%;
+    left: 42%;
+    bottom: 45%;
+    top:55%;  
+    z-index: 3;
+   width: 80%;
+}
+
