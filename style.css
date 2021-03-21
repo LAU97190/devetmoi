@@ -5,7 +5,7 @@
 
 #bloc_page
 {
-    width: 900px;
+    width: 1024px;
     margin: auto;
 }
 
@@ -13,19 +13,21 @@
 {
     float: left;
     height: 80px;;
-    padding: 1%;
-    margin-top: -15px;
+    padding: 0.5px;
+    margin-top: 0px;
+    margin-left: -53px;
+    
 }
 
 nav li
 {
     list-style-type: none;
     display: inline-block;
-    align-items: center;
-    text-align: end;
     width: 80px;
+    padding-right: 900px;
+    margin-left: -390px;
     margin-top: 10px;
-    margin-right: 5px;
+    margin-right: -490px;
    
 }  
 
@@ -41,7 +43,7 @@ nav ul
   {
     background: url('images/backgroung_image.jpg');
     width: 1070px;;
-    margin-left: 190px;
+    margin-left: 380px;
     
     z-index:1;
   }
@@ -49,12 +51,13 @@ nav ul
 .logo2_flottant
 {
   float: none;
-  height: 10%;
+  height: 7%;
   background: url('images/logo_long.png');
   position: absolute;
-    left: 48%;
-    top:  38%;  
+    left: 800px;
+    top:  260px;  
     z-index: 2;
+    
 }
 
 h1
@@ -62,9 +65,9 @@ h1
   color: white;
   font-size: 2.1em;
   position:absolute;
-  right: 56%;
-  left: 44%;
-  top:45%;  
+  right: 100px;
+  left: 750px;
+  top: 310px;;  
   z-index: 3;
   width: 900px;
 
@@ -80,7 +83,7 @@ h2
   text-align: center;
   padding-top: 1%;
   padding-bottom: 5%;
-  margin-left: 300px;
+  margin-left: 500px;
   margin-bottom: 20px;
   
   
@@ -106,7 +109,7 @@ aside
   flex-direction: row;
   justify-content: space-around;
   margin: 50px;
-  margin-left: -20px;
+  margin-left: 2px;
   width: 860px;
   
   
@@ -121,7 +124,7 @@ h3
   justify-content: center;
   margin-top: 150px;
   width: 550px;
-  margin-left: 400px;
+  margin-left: 600px;
   margin-bottom: 5px;
   padding: 10px;
   padding-right: 50px;
@@ -138,7 +141,7 @@ h4
   justify-content: center;
   margin-top: 5px;
   width: 550px;
-  margin-left: 400px;
+  margin-left: 580px;
   margin-bottom: 50px;
   padding: 10px;
   padding-right: 50px;
@@ -154,7 +157,7 @@ footer
   width: auto;
   height: 280px;
   width: 1070px;;
-  margin-left: 190px;
+  margin-left: 380px;
 }
 
 h5
@@ -214,9 +217,9 @@ h6
 
 }
 
-h1, h2, h3, h4, h5, h6, p,footer,
+h1, h2, h3, h4, h5, h6, p,footer
 {
-  font-family: Roboto
+  font-family: Roboto;
 }
 
 
